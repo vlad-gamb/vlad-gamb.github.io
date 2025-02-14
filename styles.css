@@ -15,14 +15,19 @@ body {
   background-size: cover;
 }
 .center-text {
-  position: absolute;
-  font-size: 5vw;
-  color: rgba(255, 255, 255, .3);
+  position: absolute;  
   user-select: none;
   font-family: "Smooch Sans", serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+  font-size: 5vw;
+  opacity: .75;
+  color: #feb47b;
+  background: linear-gradient(75deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .firefly {
   position: fixed;
